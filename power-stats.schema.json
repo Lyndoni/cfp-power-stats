@@ -1,0 +1,354 @@
+{
+    "title": "Power stats configuration.",
+    "id": "power-stats.schema.json",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "item-manual-time",
+        "item-throw-speed-multiplier",
+        "item-throw-cooldown-multiplier",
+        "no-module-defense",
+        "max-steal-percentage",
+
+        "default_POWER",
+        "default_ITEM",
+
+        "SHOT_SINGLE",
+        "SHOT_DOUBLE",
+        "SHOT_SIDE",
+        "SHOT_MULTI",
+        "SHOT_SCATTER",
+        "SHOT_LASER",
+        "SHOT_HOMING",
+
+        "BOMB_MINE",
+        "BOMB_TIMER",
+        "BOMB_TRIGGER",
+        "BOMB_STEALTH",
+
+        "PWR_BRAKE",
+        "PWR_SPEED",
+        "PWR_JUMP",
+        "PWR_SHIELD",
+        "PWR_ZAP",
+        "PWR_HOOK",
+        "PWR_THIN",
+        "PWR_HIDE",
+
+        "ITEM_CLOCKBLOCK",
+        "ITEM_THICK",
+        "ITEM_REVERSE",
+        "ITEM_STEERLESS",
+
+        "ITEM_LOWREZ",
+        "ITEM_BLIND",
+        "ITEM_TRIPPY",
+        "ITEM_SPEEDY"
+    ],
+
+    "properties": {
+        "item-manual-time": {
+            "type": "number",
+            "description": "The amount of miliseconds requried before manual release control is enabled for items."
+        },
+        "item-throw-speed-multiplier": {
+            "type": "number",
+            "description": "The speed multiplier when stop-throwing an item."
+        },
+        "item-throw-cooldown-multiplier": {
+            "type": "number",
+            "description": "The cooldown multiplier when stop-throwing an item."
+        },
+        "no-module-defense": {
+            "type": "number",
+            "description": "The defense for not having a module equiped."
+        },
+        "max-steal-percentage": {
+            "type": "object",
+            "description": "The max percentage amount a player can steal from another, per game-mode."
+        },
+
+        "default_SHOT": { "allOf": [ {"$ref": "#/definitions/shot-ability"}] },
+        "default_BOMB": { "allOf": [ {"$ref": "#/definitions/bomb-ability"}] },
+        "default_POWER": { "allOf": [ {"$ref": "#/definitions/power-ability"}] },
+        "default_ITEM": { "allOf": [ {"$ref": "#/definitions/item-ability"}] },
+
+        "SHOT_SINGLE": { "allOf": [ {"$ref": "#/definitions/shot-ability"}, {"$ref": "#/definitions/shot-single"}] },
+        "SHOT_DOUBLE": { "allOf": [ {"$ref": "#/definitions/shot-ability"}, {"$ref": "#/definitions/shot-double"}] },
+        "SHOT_SIDE": { "allOf": [ {"$ref": "#/definitions/shot-ability"}, {"$ref": "#/definitions/shot-side"}] },
+        "SHOT_MULTI": { "allOf": [ {"$ref": "#/definitions/shot-ability"}, {"$ref": "#/definitions/shot-multi"}] },
+        "SHOT_SCATTER": { "allOf": [ {"$ref": "#/definitions/shot-ability"}, {"$ref": "#/definitions/shot-scatter"}] },
+        "SHOT_LASER": { "allOf": [ {"$ref": "#/definitions/active-ability"}, {"$ref": "#/definitions/shot-laser"}] },
+        "SHOT_HOMING": { "allOf": [ {"$ref": "#/definitions/shot-ability"}, {"$ref": "#/definitions/shot-homing"}] },
+
+        "BOMB_MINE": { "allOf": [ {"$ref": "#/definitions/bomb-ability"}, {"$ref": "#/definitions/bomb-mine"}] },
+        "BOMB_TIMER": { "allOf": [ {"$ref": "#/definitions/bomb-ability"}, {"$ref": "#/definitions/bomb-timer"}] },
+        "BOMB_TRIGGER": { "allOf": [ {"$ref": "#/definitions/bomb-ability"}, {"$ref": "#/definitions/bomb-trigger"}] },
+        "BOMB_STEALTH": { "allOf": [ {"$ref": "#/definitions/bomb-ability"}, {"$ref": "#/definitions/bomb-stealth"}] },
+
+        "PWR_BRAKE": { "allOf": [ {"$ref": "#/definitions/power-ability"}, {"$ref": "#/definitions/power-speed"}] },
+        "PWR_SPEED": { "allOf": [ {"$ref": "#/definitions/power-ability"}, {"$ref": "#/definitions/power-speed"}] },
+        "PWR_JUMP": { "allOf": [ {"$ref": "#/definitions/power-ability"}, {"$ref": "#/definitions/power-jump"}] },
+        "PWR_SHIELD": { "allOf": [ {"$ref": "#/definitions/power-ability"}, {"$ref": "#/definitions/power-shield"}] },
+        "PWR_ZAP": { "allOf": [ {"$ref": "#/definitions/power-ability"}, {"$ref": "#/definitions/power-zap"}] },
+        "PWR_HOOK": { "allOf": [ {"$ref": "#/definitions/power-ability"}, {"$ref": "#/definitions/power-hook"}] },
+        "PWR_THIN": { "allOf": [ {"$ref": "#/definitions/power-ability"}, {"$ref": "#/definitions/power-thin"}] },
+        "PWR_HIDE": { "allOf": [ {"$ref": "#/definitions/power-ability"}, {"$ref": "#/definitions/power-hide"}] },
+        
+        "ITEM_CLOCKBLOCK": { "allOf": [ {"$ref": "#/definitions/item-ability"}, {"$ref": "#/definitions/item-clockblock"}] },
+        "ITEM_THICK": { "allOf": [ {"$ref": "#/definitions/item-ability"}, {"$ref": "#/definitions/item-thick"}] },
+        "ITEM_REVERSE": { "allOf": [ {"$ref": "#/definitions/item-ability"}, {"$ref": "#/definitions/item-reverse"}] },
+        "ITEM_STEERLESS": { "allOf": [ {"$ref": "#/definitions/item-ability"}, {"$ref": "#/definitions/item-steerless"}] },
+        "ITEM_SPEEDY": { "allOf": [ {"$ref": "#/definitions/item-ability"}, {"$ref": "#/definitions/item-speedy"}] },
+        "ITEM_LOWREZ": { "allOf": [ {"$ref": "#/definitions/item-ability"}, {"$ref": "#/definitions/item-vis"}] },
+        "ITEM_BLIND": { "allOf": [ {"$ref": "#/definitions/item-ability"}, {"$ref": "#/definitions/item-vis"}] },
+        "ITEM_TRIPPY": { "allOf": [ {"$ref": "#/definitions/item-ability"}, {"$ref": "#/definitions/item-vis"}] }
+    },
+
+    "definitions": {
+        "value": {
+            "properties": {
+                "base": {
+                    "type": "number",
+                    "description": "Default start value."
+                },
+                "grow": {
+                    "type": "number",
+                    "description": "Multiplier of growth per level.",
+                    "default": 1
+                }
+            }
+        },
+        "ability": {
+            "properties": {
+                "not-use-group": {
+                    "type": "boolean",
+                    "description": "Disable the use of base values of the ability-group."
+                },
+                "game-mode": {
+                    "type": "object",
+                    "description": "Overrides for any property based on game-mode-type.",
+                    "properties": {
+                        "FFA": { "allOf": [{"$ref": "#definitions/active-ability"}], "description": "Override for FFA game-mode." },
+                        "TEAMS": { "allOf": [{"$ref": "#definitions/active-ability"}], "description": "Override for TEAMS game-mode." }
+                    }
+                }
+            }
+        },
+        "active-ability": {
+            "allOf": [{"$ref": "#/definitions/ability"}],
+            "properties": {
+                "cooldown": {
+                    "$ref": "#/definitions/value",
+                    "description": "The cooldown time in MS where you can't activate the ability again."
+                }
+            }
+        },
+
+        "shot-ability": {
+            "allOf": [{"$ref": "#/definitions/active-ability"}],
+            "properties": {
+                "bullet-size": { "$ref": "#/definitions/value" },
+                "bullet-speed": { "$ref": "#/definitions/value" },
+                "range": { "$ref": "#/definitions/value" },
+                "explosion-radius": { "$ref": "#/definitions/value" },
+                "hole-radius": { "$ref": "#/definitions/value" },
+                "small": {
+                    "type": "boolean"
+                },
+                "spawn-locations": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "x": {
+                                "type": "number"
+                            },
+                            "y": {
+                                "type": "number"
+                            },
+                            "angle": {
+                                "type": "number",
+                                "description": "Angle in degrees"
+                            }
+                        }
+                    }
+                },
+                "shot-count": {
+                    "type": "number"
+                },
+                "shot-interval": { "$ref": "#/definitions/value" },
+                "shot-spread": { "$ref": "#/definitions/value" }
+            }
+        },
+        "bomb-ability": {
+            "allOf": [{"$ref": "#/definitions/active-ability"}],
+            "properties": {
+                "travel-radius": { 
+                    "$ref": "#/definitions/value",
+                    "description": "The pick-up radius of this item while moving."
+                },
+                "trigger-radius": {
+                    "$ref": "#/definitions/value",
+                    "description": "The pick-up radius of this item after it stopped moving."
+                },
+                "throw-speed": {
+                    "$ref": "#/definitions/value",
+                    "description": "The speed at which the object will be thrown. This might also affects how quickly the body will stop after friction is applied"
+                },
+                "activation-delay": { "$ref": "#/definitions/value" },
+                "explode-delay": { "$ref": "#/definitions/value" },
+                "stop-throw": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "power-ability": {
+            "allOf": [{"$ref": "#/definitions/active-ability"}],
+            "properties": {
+                
+            }
+        },
+        "item-ability": {
+            "allOf": [{"$ref": "#/definitions/active-ability"}],
+            "properties": {
+                "travel-radius": {
+                    "$ref": "#/definitions/value",
+                    "description": "The pick-up radius of this item while moving."
+                },
+                "trigger-radius": {
+                    "$ref": "#/definitions/value",
+                    "description": "The pick-up radius of this item after it stopped moving."
+                },
+                "throw-speed": {
+                    "$ref": "#/definitions/value",
+                    "description": "The speed at which the object will be thrown. This might also affects how quickly the body will stop after friction is applied"
+                },
+                "effect-duration": {
+                    "$ref": "#/definitions/value",
+                    "description": "The duration of the effect in miliseconds. Values lower then 0 are considered infinite (the effect will never end during a round)."
+                },
+                "collide-while-moving": {
+                    "type": "boolean"
+                },
+                "activation-delay": {
+                    "$ref": "#/definitions/value"
+                },
+                "stop-throw": {
+                    "type": "boolean"
+                }
+            }
+        },
+
+
+
+        "shot-single": {},
+        "shot-double": {},
+        "shot-side": {},
+        "shot-multi": {},
+        "shot-scatter": {},
+        "shot-laser": {
+            "properties": {
+                "rotate-multiplier": { "$ref": "#/definitions/value" },
+                "speed-multiplier": { "$ref": "#/definitions/value" },
+                "thickness": { "$ref": "#/definitions/value" },
+                "distance": {
+                    "type": ["number", "null"],
+                    "default": "null"
+                },
+                "windup-time": { "$ref": "#/definitions/value" }
+            }
+        },
+        "shot-homing": {
+            "properties": {
+                "search-radius": { "$ref": "#/definitions/value" },
+                "turn-angle": { "$ref": "#/definitions/value" },
+                "collide-with-curves": {
+                    "type": "boolean"
+                }
+            }
+        },
+
+        "bomb-mine": {},
+        "bomb-timer": {},
+        "bomb-trigger": {
+            "properties": {
+                "stop-moving-on-trigger": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "bomb-stealth": {
+            "properties": {
+                "blink-speed": { "$ref": "#/definitions/value" },
+                "reveal-interval": { "$ref": "#/definitions/value" },
+                "reveal-duration": { "$ref": "#/definitions/value" },
+                "life-duration": { "$ref": "#/definitions/value" },
+                "hide-alpha": { "$ref": "#/definitions/value" }
+            }
+        },
+
+        "power-speed": {
+            "properties": {
+                "ease-in-duration": { "$ref": "#/definitions/value" },
+                "ease-out-duration": { "$ref": "#/definitions/value" },
+                "speed-multiplier": {"$ref": "#/definitions/value" },
+                "rotate-multiplier": { "$ref": "#/definitions/value" }
+            }
+        },
+        "power-jump": {},
+        "power-shield": {
+            "properties": {
+                "radius": { "$ref": "#/definitions/value" },
+                "bounce": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "power-zap": {
+            "properties": {
+                "radius": { "$ref": "#/definitions/value" }
+            }
+        },
+        "power-hook": {
+            "properties": {
+                "angle": {
+                    "$ref": "#/definitions/value",
+                    "description": "Angle in degrees."
+                }
+            }
+        },
+        "power-thin": {
+            "properties": {
+                "thickness-multiplier": { "$ref": "#/definitions/value" }
+            }
+        },
+        "power-hide": {},
+
+        "item-clockblock": {},
+        "item-thick": {
+            "properties": {
+                "thickness-multiplier": { "$ref": "#/definitions/value" }
+            }
+        },
+        "item-reverse": {},
+        "item-steerless": {
+            "properties": {
+                "rotate-multiplier": { "$ref": "#/definitions/value" }
+            }
+        },
+        "item-speedy": {
+            "properties": {
+                "ease-in-duration": { "$ref": "#/definitions/value" },
+                "ease-out-duration": { "$ref": "#/definitions/value" },
+                "speed-multiplier": { "$ref": "#/definitions/value" },
+                "rotate-multiplier": { "$ref": "#/definitions/value" }
+            }
+        },
+        "item-vis": {
+            "properties": {
+                "intensity": { "$ref": "#/definitions/value" }
+            }
+        }
+    }
+}
