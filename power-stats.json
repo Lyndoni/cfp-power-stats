@@ -12,7 +12,7 @@
         "defense": 0,
         "cooldown": 3000,
 
-        "bullet-size": 40,
+        "bullet-size": 4,
         "explosion-radius": 7.5,
         "bullet-speed": 5,
         "hole-radius": 0,
@@ -21,7 +21,7 @@
     "default_BOMB": {
         "attack": 0,
         "defense": 0,
-        "cooldown": 0,
+        "cooldown": 5000,
 
         "travel-radius": 1,
         "trigger-radius": 40,
