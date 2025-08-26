@@ -140,7 +140,7 @@
         "min-attack-angle": 15,
         "defense": 0,
         "cooldown": 6000,
-        "thickness": 6,
+        "thickness": 60,
         "windup-time": 700,
         "rotate-multiplier": 0.05,
         "speed-multiplier": 0.5,
