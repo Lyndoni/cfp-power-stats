@@ -229,7 +229,7 @@
         "attack": 142,
         "trigger-radius": 60,
         "activation-delay": 500,
-        "explode-delay": 500,
+        "explode-delay": 400,
         "cooldown": 6500
     },
 
@@ -253,13 +253,13 @@
 
     "PWR_BRAKE": {
         "defense": 160,
-        "cooldown": 5000,
+        "cooldown": 4.50,
 
         "ease-in-duration": 0,
         "ease-out-duration": 500,
         "effect-duration": 1500,
-        "speed-multiplier": 0.4,
-        "rotate-multiplier": 1.33,
+        "speed-multiplier": 0.45,
+        "rotate-multiplier": 1.2,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 7000
