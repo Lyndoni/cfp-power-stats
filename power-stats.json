@@ -270,7 +270,7 @@
     "PWR_JUMP": {
         "defense": 70,
         "cooldown": 5500,
-        "effect-duration": 5000,
+        "effect-duration": 500,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 7000
