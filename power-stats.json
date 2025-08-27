@@ -51,7 +51,7 @@
     "SHOT_SINGLE": {
         "attack": 146,
         "initial-cooldown": 4000,
-        "bullet-speed": 10,
+        "bullet-speed": 7,
         "charge-time": 0
     },
 
@@ -141,9 +141,9 @@
         "min-attack-angle": 15,
         "defense": 0,
         "cooldown": 6000,
-        "thickness": 60,
+        "thickness": 6,
         "windup-time": 700,
-        "rotate-multiplier": 0.05,
+        "rotate-multiplier": 1.05,
         "speed-multiplier": 0.5,
         "duration": 80,
         "distance": null
@@ -257,9 +257,9 @@
 
         "ease-in-duration": 0,
         "ease-out-duration": 500,
-        "effect-duration": 2000,
+        "effect-duration": 1.5,
         "speed-multiplier": 0.4,
-        "rotate-multiplier": 1,
+        "rotate-multiplier": 1.33,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 7000
