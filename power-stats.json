@@ -253,7 +253,7 @@
 
     "PWR_BRAKE": {
         "defense": 160,
-        "cooldown": 4.50,
+        "cooldown": 4500,
 
         "ease-in-duration": 0,
         "ease-out-duration": 500,
