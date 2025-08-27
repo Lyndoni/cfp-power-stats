@@ -257,7 +257,7 @@
 
         "ease-in-duration": 0,
         "ease-out-duration": 500,
-        "effect-duration": 1.5,
+        "effect-duration": 1500,
         "speed-multiplier": 0.4,
         "rotate-multiplier": 1.33,
         "game-mode": {
