@@ -113,11 +113,11 @@
     },
 
     "SHOT_SCATTER": {
-        "attack": 20,
+        "attack": 17.6,
         "bullet-size": 2,
-        "range": 800,
-        "shot-count": 500,
-        "shot-interval": 10,
+        "range": 80,
+        "shot-count": 10,
+        "shot-interval": 50,
         "shot-spread": 15.6,
         "bullet-speed": 4,
         "cooldown": 5000
@@ -310,7 +310,7 @@
         "defense": 250,
         "cooldown": 5700,
 
-        "effect-duration": 35000
+        "effect-duration": 3500
     },
 
     "PWR_HOOK": {
@@ -318,7 +318,7 @@
         "cooldown": 7700,
 
         "effect-duration": 6000,
-        "angle": 90
+        "angle": 45
     },
 
     "PWR_TELEPORT": {
