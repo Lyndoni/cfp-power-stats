@@ -174,8 +174,7 @@
 
     "ITEM_THICK": {
         "attack": 130,
-        "thickness-multiplier": 1.75,
-        "trigger-radius": 60
+        "thickness-multiplier": 1.75
     },
 
     "ITEM_LOWREZ": {
@@ -221,9 +220,9 @@
     },
 
     "BOMB_MINE": {
-        "attack": 98,
-        "trigger-radius": 35,
-        "activation-delay": 500
+        "attack": 10,
+        "trigger-radius": 350,
+        "activation-delay": 10
     },
 
     "BOMB_TIMER": {
