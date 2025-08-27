@@ -202,7 +202,7 @@
     "ITEM_SPEEDY": {
         "attack": 112,
         "effect-duration": 2000,
-        "speed-multiplier": 2,
+        "speed-multiplier": 200,
         "rotate-multiplier": 1.25,
         "ease-in-duration": 0,
         "ease-out-duration": 0
@@ -318,7 +318,7 @@
         "cooldown": 7700,
 
         "effect-duration": 6000,
-        "angle": 45
+        "angle": 90
     },
 
     "PWR_TELEPORT": {
