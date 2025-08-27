@@ -141,7 +141,7 @@
         "min-attack-angle": 15,
         "defense": 0,
         "cooldown": 6000,
-        "thickness": 15,
+        "thickness": 20,
         "windup-time": 800,
         "rotate-multiplier": 0.05,
         "speed-multiplier": 0.5,
@@ -189,8 +189,8 @@
 
     "ITEM_BLIND": {
         "attack": 126,
-        "intensity": 0.01,
-        "effect-duration": 1500
+        "intensity": 0.00,
+        "effect-duration": 2000
     },
 
     "ITEM_CLOCKBLOCK": {
