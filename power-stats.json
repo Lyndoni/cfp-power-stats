@@ -174,7 +174,8 @@
 
     "ITEM_THICK": {
         "attack": 130,
-        "thickness-multiplier": 1.75
+        "thickness-multiplier": 1.75,
+        "trigger-radius": 60
     },
 
     "ITEM_LOWREZ": {
@@ -201,9 +202,9 @@
     
     "ITEM_SPEEDY": {
         "attack": 112,
-        "effect-duration": 4000,
-        "speed-multiplier": 0.4,
-        "rotate-multiplier": 0.6,
+        "effect-duration": 2000,
+        "speed-multiplier": 2,
+        "rotate-multiplier": 2,
         "ease-in-duration": 0,
         "ease-out-duration": 0
     },
