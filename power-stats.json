@@ -52,7 +52,18 @@
         "attack": 146,
         "initial-cooldown": 4000,
         "bullet-speed": 7,
-        "charge-time": 0
+        "charge-time": 0,
+        "spawn-locations": [{
+                "x": 0,
+                "y": 10,
+                "angle": 0
+            },
+            {
+                "x": 0,
+                "y": 10,
+                "angle": 180
+            }
+        ]
     },
 
     "SHOT_DOUBLE": {
@@ -74,12 +85,12 @@
         "attack": 125,
         "initial-cooldown": 4000,
         "spawn-locations": [{
-                "x": 50,
+                "x": 0,
                 "y": 0,
                 "angle": 90
             },
             {
-                "x": 50,
+                "x": 0,
                 "y": 0,
                 "angle": -90
             }
