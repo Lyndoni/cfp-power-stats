@@ -74,12 +74,12 @@
         "attack": 125,
         "initial-cooldown": 4000,
         "spawn-locations": [{
-                "x": 0,
+                "x": 50,
                 "y": 0,
                 "angle": 90
             },
             {
-                "x": 0,
+                "x": 50,
                 "y": 0,
                 "angle": -90
             }
@@ -326,17 +326,10 @@
         "cooldown": 5500,
 
         "activation-delay": 250,
-        "throw-speed": 3,
+        "throw-speed": 5,
         "range": 1200,
         "copy-direction": true,
-        "freeze-on-schedule": true,
-                "spawn-locations": [{
-                "x": 0,
-                "y": 40,
-                "angle": 0
-            }
-        ]
-
+        "freeze-on-schedule": true
     },
 
     "PWR_180": {
