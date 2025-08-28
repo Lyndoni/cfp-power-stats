@@ -326,10 +326,17 @@
         "cooldown": 5500,
 
         "activation-delay": 250,
-        "throw-speed": 5,
+        "throw-speed": 3,
         "range": 1200,
         "copy-direction": true,
-        "freeze-on-schedule": true
+        "freeze-on-schedule": true,
+                "spawn-locations": [{
+                "x": 0,
+                "y": 40,
+                "angle": 0
+            }
+        ]
+
     },
 
     "PWR_180": {
