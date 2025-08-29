@@ -38,7 +38,7 @@
         "cooldown": 4000,
 
         "travel-radius": 10,
-        "trigger-radius": 37,
+        "trigger-radius": 38,
         "activation-delay": 550,
         "throw-speed": 5,
         "effect-duration": 5000,
@@ -307,6 +307,8 @@
     "PWR_HIDE": {
         "defense": 125,
         "cooldown": 5700,
+        "rotate-multiplier": 1.1,
+        "speed-multiplier": 1.1,
 
         "effect-duration": 3500
     },
@@ -350,7 +352,7 @@
         "ease-in-duration": 0,
         "ease-out-duration": 200,
         "effect-duration": 200,
-        "speed-multiplier": 5,
+        "speed-multiplier": 4.2,
         "rotate-multiplier": 0,
 
         "explode-radius-multiplier": 3,
