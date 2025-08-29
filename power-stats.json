@@ -130,7 +130,7 @@
         "explosion-radius": 8,
         "bullet-speed": 3.5,
         "search-radius": 45,
-        "turn-angle": 25
+        "turn-angle": 20
     },
 
     "SHOT_LASER": {
