@@ -313,10 +313,10 @@
 
     "PWR_HOOK": {
         "defense": 125,
-        "cooldown": 7700,
+        "cooldown": 6000,
 
-        "effect-duration": 8000,
-        "angle": 45
+        "effect-duration": 4000,
+        "angle": 90
     },
 
     "PWR_TELEPORT": {
