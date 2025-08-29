@@ -15,7 +15,7 @@
         "bullet-size": 4,
         "explosion-radius": 12,
         "bullet-speed": 5,
-        "hole-radius": 3,
+        "hole-radius": 10,
         "range": 999999
     },
     "default_BOMB": {
