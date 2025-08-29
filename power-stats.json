@@ -324,9 +324,9 @@
 
     "PWR_TELEPORT": {
         "defense": 100,
-        "cooldown": 5500,
+        "cooldown": 6000,
 
-        "activation-delay": 250,
+        "activation-delay": 350,
         "throw-speed": 5,
         "range": 1200,
         "copy-direction": true,
