@@ -124,13 +124,13 @@
     },
 
     "SHOT_HOMING": {
-        "attack": 86,
+        "attack": 106,
         "cooldown": 3500,
         "initial-cooldown": 4500,
-        "explosion-radius": 10,
+        "explosion-radius": 8,
         "bullet-speed": 3,
-        "search-radius": 45,
-        "turn-angle": 32
+        "search-radius": 25,
+        "turn-angle": 40
     },
 
     "SHOT_LASER": {
@@ -165,11 +165,11 @@
     },
 
     "PWR_ZAP": {
-        "attack": 276,
+        "attack": 176,
         "cooldown": 5500,
 
         "effect-duration": 400,
-        "radius": 5
+        "radius": 25
     },
 
     "ITEM_THICK": {
