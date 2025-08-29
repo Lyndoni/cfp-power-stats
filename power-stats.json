@@ -315,8 +315,8 @@
         "defense": 125,
         "cooldown": 7700,
 
-        "effect-duration": 6000,
-        "angle": 90
+        "effect-duration": 8000,
+        "angle": 45
     },
 
     "PWR_TELEPORT": {
