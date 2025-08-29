@@ -327,7 +327,7 @@
         "defense": 100,
         "cooldown": 6000,
 
-        "activation-delay": 3500,
+        "activation-delay": 4000,
         "throw-speed": 5,
         "range": 1200,
         "copy-direction": true,
