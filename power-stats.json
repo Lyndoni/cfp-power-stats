@@ -189,8 +189,7 @@
 
     "ITEM_BLIND": {
         "attack": 126,
-        "intensity": 0.02,
-        "effect-duration": 2000
+        "intensity": 0.01
     },
 
     "ITEM_CLOCKBLOCK": {
