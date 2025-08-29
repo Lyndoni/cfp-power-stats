@@ -296,7 +296,7 @@
     },
 
     "PWR_THIN": {
-        "defense": 9,
+        "defense": 90,
         "cooldown": 4000,
 
         "thickness-multiplier": 0.55,
