@@ -13,9 +13,9 @@
         "cooldown": 3000,
 
         "bullet-size": 4,
-        "explosion-radius": 10,
+        "explosion-radius": 12,
         "bullet-speed": 5,
-        "hole-radius": 0,
+        "hole-radius": 3,
         "range": 999999
     },
     "default_BOMB": {
