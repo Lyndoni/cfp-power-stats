@@ -165,11 +165,11 @@
     },
 
     "PWR_ZAP": {
-        "attack": 176,
+        "attack": 276,
         "cooldown": 5500,
 
         "effect-duration": 400,
-        "radius": 25
+        "radius": 5
     },
 
     "ITEM_THICK": {
@@ -327,7 +327,7 @@
         "defense": 100,
         "cooldown": 6000,
 
-        "activation-delay": 4000,
+        "activation-delay": 400,
         "throw-speed": 5,
         "range": 1200,
         "copy-direction": true,
