@@ -188,9 +188,8 @@
 
     "ITEM_BLIND": {
         "attack": 126,
-        "intensity": 0.00,
+        "intensity": 0.07,
         "effect-duration": 2000,
-        "trigger-radius": 39
     },
 
     "ITEM_CLOCKBLOCK": {
@@ -217,7 +216,6 @@
         "attack": 115,
         "effect-start-delay": 0,
         "rotate-multiplier": 0.7,
-        "trigger-radius": 37
     },
 
     "BOMB_MINE": {
@@ -355,7 +353,7 @@
         "ease-in-duration": 0,
         "ease-out-duration": 200,
         "effect-duration": 200,
-        "speed-multiplier": 4.2,
+        "speed-multiplier": 4,
         "rotate-multiplier": 0,
 
         "explode-radius-multiplier": 3,
