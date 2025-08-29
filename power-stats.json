@@ -188,7 +188,9 @@
 
     "ITEM_BLIND": {
         "attack": 126,
-        "intensity": 0.04
+        "intensity": 0.00,
+        "effect-duration": 2000,
+        "trigger-radius": 39
     },
 
     "ITEM_CLOCKBLOCK": {
@@ -214,7 +216,8 @@
     "ITEM_STEERLESS": {
         "attack": 115,
         "effect-start-delay": 0,
-        "rotate-multiplier": 0.7
+        "rotate-multiplier": 0.7,
+        "trigger-radius": 37
     },
 
     "BOMB_MINE": {
@@ -307,8 +310,8 @@
     "PWR_HIDE": {
         "defense": 125,
         "cooldown": 5700,
-        "rotate-multiplier": 1.1,
-        "speed-multiplier": 1.1,
+        "rotate-multiplier": 1.3,
+        "speed-multiplier": 1.3,
 
         "effect-duration": 3500
     },
