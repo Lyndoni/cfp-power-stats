@@ -51,6 +51,7 @@
     "SHOT_SINGLE": {
         "attack": 146,
         "initial-cooldown": 4000,
+        "bullet-speed": 7,
         "charge-time": 0
     },
 
