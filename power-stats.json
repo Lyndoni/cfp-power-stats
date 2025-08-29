@@ -189,7 +189,7 @@
 
     "ITEM_BLIND": {
         "attack": 126,
-        "intensity": 0.07,
+        "intensity": 0.02,
         "effect-duration": 2000
     },
 
