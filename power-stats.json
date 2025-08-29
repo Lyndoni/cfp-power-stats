@@ -189,7 +189,7 @@
     "ITEM_BLIND": {
         "attack": 126,
         "intensity": 0.07,
-        "effect-duration": 2000,
+        "effect-duration": 2000
     },
 
     "ITEM_CLOCKBLOCK": {
@@ -215,7 +215,7 @@
     "ITEM_STEERLESS": {
         "attack": 115,
         "effect-start-delay": 0,
-        "rotate-multiplier": 0.7,
+        "rotate-multiplier": 0.7
     },
 
     "BOMB_MINE": {
