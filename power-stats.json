@@ -136,16 +136,16 @@
     "SHOT_LASER": {
         "not-use-group": true,
 
-        "max-attack": 120,
-        "min-attack": 120,
+        "max-attack": 170,
+        "min-attack": 170,
         "min-attack-angle": 15,
         "defense": 0,
         "cooldown": 6000,
-        "thickness": 6,
-        "windup-time": 700,
-        "rotate-multiplier": 0.05,
-        "speed-multiplier": 0.5,
-        "duration": 80,
+        "thickness": 15,
+        "windup-time": 1700,
+        "rotate-multiplier": 0.1,
+        "speed-multiplier": 0.3,
+        "duration": 20,
         "distance": null
     },
 
