@@ -125,7 +125,7 @@
 
     "SHOT_HOMING": {
         "attack": 72,
-        "cooldown": 4.5,
+        "cooldown": 4500,
         "initial-cooldown": 4500,
         "explosion-radius": 15,
         "bullet-speed": 3.5,
