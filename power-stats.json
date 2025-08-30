@@ -268,7 +268,7 @@
     },
 
     "PWR_JUMP": {
-        "defense": 35,
+        "defense": 70,
         "cooldown": 5500,
         "effect-duration": 500,
         "game-mode": {
@@ -289,7 +289,7 @@
     },
 
     "PWR_SHIELD": {
-        "defense": 400,
+        "defense": 200,
         "effect-duration": 1500,
         "radius": 25,
         "bounce-attack-modifier": 0.8,
@@ -316,7 +316,7 @@
     },
 
     "PWR_HOOK": {
-        "defense": 125,
+        "defense": 50,
         "cooldown": 6000,
 
         "effect-duration": 4000,
