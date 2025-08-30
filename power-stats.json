@@ -189,7 +189,9 @@
 
     "ITEM_BLIND": {
         "attack": 126,
-        "intensity": 0.02
+        "intensity": 0.00,
+        "effect-duration": 2000
+
     },
 
     "ITEM_CLOCKBLOCK": {
@@ -258,7 +260,7 @@
         "ease-out-duration": 500,
         "effect-duration": 2000,
         "speed-multiplier": 0.4,
-        "rotate-multiplier": 1,
+        "rotate-multiplier": 1.2,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 7000
