@@ -127,10 +127,10 @@
         "attack": 62,
         "cooldown": 3500,
         "initial-cooldown": 4500,
-        "explosion-radius": 2,
+        "explosion-radius": 7.5,
         "bullet-speed": 1.5,
         "search-radius": 60,
-        "turn-angle": 250
+        "turn-angle": 50
     },
 
     "SHOT_LASER": {
