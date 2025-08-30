@@ -15,7 +15,7 @@
         "bullet-size": 4,
         "explosion-radius": 12,
         "bullet-speed": 5,
-        "hole-radius": 10,
+        "hole-radius": 0,
         "range": 999999
     },
     "default_BOMB": {
@@ -124,13 +124,13 @@
     },
 
     "SHOT_HOMING": {
-        "attack": 62,
-        "cooldown": 3500,
+        "attack": 72,
+        "cooldown": 4.5,
         "initial-cooldown": 4500,
-        "explosion-radius": 8,
+        "explosion-radius": 15,
         "bullet-speed": 3.5,
         "search-radius": 45,
-        "turn-angle": 20
+        "turn-angle": 30
     },
 
     "SHOT_LASER": {
