@@ -335,7 +335,7 @@
     },
 
     "PWR_180": {
-        "defense": -500,
+        "defense": -5000,
         "cooldown": 6000,
 
         "hole-radius": 30,
