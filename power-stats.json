@@ -115,7 +115,7 @@
         "range": 80,
         "shot-count": 10,
         "shot-interval": 55,
-        "shot-spread": 15.6,
+        "shot-spread": 24,
         "bullet-speed": 4,
         "cooldown": 5000
     },
