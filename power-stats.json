@@ -110,7 +110,7 @@
     },
 
     "SHOT_SCATTER": {
-        "attack": 188,
+        "attack": 194,
         "bullet-size": 2,
         "range": 80,
         "shot-count": 10,
@@ -162,7 +162,7 @@
     },
 
     "PWR_ZAP": {
-        "attack": 176,
+        "attack": 182,
         "cooldown": 5500,
 
         "effect-duration": 400,
