@@ -113,12 +113,12 @@
 
     "SHOT_SCATTER": {
         "attack": 188,
-        "bullet-size": 2.5,
+        "bullet-size": 2,
         "range": 80,
-        "shot-count": 5,
-        "shot-interval": 115,
+        "shot-count": 10,
+        "shot-interval": 55,
         "shot-spread": 15.6,
-        "bullet-speed": 5,
+        "bullet-speed": 4,
         "cooldown": 5000
     },
 
