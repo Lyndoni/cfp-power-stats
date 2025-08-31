@@ -233,7 +233,7 @@
     "BOMB_TRIGGER": {
         "attack": 123,
         "trigger-radius": 30,
-        "activation-delay": 500,
+        "activation-delay": 400,
         "stop-moving-on-trigger": true,
         "explode-delay": 0
     },
@@ -333,7 +333,7 @@
         "defense": 50,
         "cooldown": 6000,
 
-        "activation-delay": 1000,
+        "activation-delay": 5000,
         "hole-radius": 30,
         "hole-in-front": 30,
         "game-mode": {
