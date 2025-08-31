@@ -12,8 +12,8 @@
         "defense": 0,
         "cooldown": 3000,
 
-        "bullet-size": 5,
-        "explosion-radius": 12,
+        "bullet-size": 4,
+        "explosion-radius": 7.5,
         "bullet-speed": 5,
         "hole-radius": 0,
         "range": 999999
