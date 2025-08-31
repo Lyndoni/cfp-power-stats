@@ -13,7 +13,7 @@
         "cooldown": 3000,
 
         "bullet-size": 4,
-        "explosion-radius": 7.5,
+        "explosion-radius": 9,
         "bullet-speed": 5,
         "hole-radius": 0,
         "range": 999999
@@ -50,7 +50,8 @@
 
     "SHOT_SINGLE": {
         "attack": 146,
-        "initial-cooldown": 4000
+        "initial-cooldown": 4000,
+        "shot-speed": 6.5
     },
 
     "SHOT_DOUBLE": {
@@ -306,11 +307,9 @@
 
     "PWR_HIDE": {
         "defense": 125,
-        "cooldown": 5700,
-        "rotate-multiplier": 2,
-        "speed-multiplier": 2,
+        "cooldown": 5500,
 
-        "effect-duration": 3500
+        "effect-duration": 4000
     },
 
     "PWR_HOOK": {
