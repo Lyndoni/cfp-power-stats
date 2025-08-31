@@ -113,7 +113,7 @@
 
     "SHOT_SCATTER": {
         "attack": 188,
-        "bullet-size": 2,
+        "bullet-size": 2.5,
         "range": 80,
         "shot-count": 5,
         "shot-interval": 115,
