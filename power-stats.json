@@ -86,7 +86,7 @@
     },
     "SHOT_MULTI": {
         "attack": 114,
-        "cooldown": 3260,
+        "cooldown": 3250,
         "initial-cooldown": 4260,
         "spawn-locations": [{
                 "x": 0,
@@ -307,9 +307,9 @@
 
     "PWR_HIDE": {
         "defense": 125,
-        "cooldown": 4,
+        "cooldown": 4000,
 
-        "effect-duration": 3
+        "effect-duration": 3000
     },
 
     "PWR_HOOK": {
