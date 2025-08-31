@@ -333,7 +333,7 @@
         "defense": 50,
         "cooldown": 6000,
 
-        "activation-delay": 400,
+        "activation-delay": 1000,
         "hole-radius": 30,
         "hole-in-front": 30,
         "game-mode": {
