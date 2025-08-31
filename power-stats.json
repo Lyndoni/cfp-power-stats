@@ -12,7 +12,7 @@
         "defense": 0,
         "cooldown": 3000,
 
-        "bullet-size": 6,
+        "bullet-size": 5,
         "explosion-radius": 12,
         "bullet-speed": 5,
         "hole-radius": 0,
@@ -50,9 +50,7 @@
 
     "SHOT_SINGLE": {
         "attack": 146,
-        "initial-cooldown": 4000,
-        "bullet-speed": 7,
-        "charge-time": 0
+        "initial-cooldown": 4000
     },
 
     "SHOT_DOUBLE": {
