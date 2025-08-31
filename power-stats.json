@@ -307,9 +307,9 @@
 
     "PWR_HIDE": {
         "defense": 125,
-        "cooldown": 5500,
+        "cooldown": 4,
 
-        "effect-duration": 4000
+        "effect-duration": 3
     },
 
     "PWR_HOOK": {
