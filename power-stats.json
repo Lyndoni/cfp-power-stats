@@ -38,7 +38,7 @@
         "cooldown": 4000,
 
         "travel-radius": 10,
-        "trigger-radius": 38,
+        "trigger-radius": 39,
         "activation-delay": 550,
         "throw-speed": 5,
         "effect-duration": 5000,
