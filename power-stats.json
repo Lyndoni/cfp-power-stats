@@ -225,8 +225,8 @@
     "BOMB_TIMER": {
         "attack": 142,
         "trigger-radius": 60,
-        "activation-delay": 400,
-        "explode-delay": 400,
+        "activation-delay": 500,
+        "explode-delay": 300,
         "cooldown": 6500
     },
 
@@ -314,7 +314,7 @@
         "defense": 50,
         "cooldown": 6000,
 
-        "effect-duration": 4000,
+        "effect-duration": 3500,
         "angle": 90
     },
 
