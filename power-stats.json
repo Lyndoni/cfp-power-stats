@@ -226,7 +226,7 @@
         "attack": 142,
         "trigger-radius": 60,
         "activation-delay": 500,
-        "explode-delay": 300,
+        "explode-delay": 400,
         "cooldown": 6500
     },
 
