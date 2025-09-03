@@ -24,8 +24,8 @@
         "cooldown": 5000,
 
         "travel-radius": 1,
-        "trigger-radius": 40,
-        "activation-delay": 550,
+        "trigger-radius": 42,
+        "activation-delay": 600,
         "throw-speed": 5
     },
     "default_POWER": {
@@ -219,7 +219,7 @@
     "BOMB_MINE": {
         "attack": 98,
         "trigger-radius": 35,
-        "activation-delay": 450
+        "activation-delay": 500
     },
 
     "BOMB_TIMER": {
@@ -233,7 +233,7 @@
     "BOMB_TRIGGER": {
         "attack": 123,
         "trigger-radius": 30,
-        "activation-delay": 0,
+        "activation-delay": 450,
         "stop-moving-on-trigger": true,
         "explode-delay": 0
     },
