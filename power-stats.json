@@ -140,10 +140,10 @@
         "cooldown": 6000,
         "thickness": 12,
         "windup-time": 700,
-        "rotate-multiplier": 5.05,
+        "rotate-multiplier": 0.05,
         "speed-multiplier": 0.3,
         "duration": 30,
-        "distance": null
+        "distance": -9999
     },
 
 
