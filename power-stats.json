@@ -50,7 +50,8 @@
 
     "SHOT_SINGLE": {
         "attack": 151,
-        "initial-cooldown": 4000
+        "initial-cooldown": 4000,
+        "bullet-speed": 7
     },
 
     "SHOT_DOUBLE": {
