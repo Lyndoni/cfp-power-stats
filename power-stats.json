@@ -35,11 +35,11 @@
     "default_ITEM": {
         "attack": 0,
         "defense": 0,
-        "cooldown": 4000,
+        "cooldown": 400,
 
         "travel-radius": 10,
         "trigger-radius": 39,
-        "activation-delay": 550,
+        "activation-delay": 55,
         "throw-speed": 5,
         "effect-duration": 5000,
         "collide-while-moving": false
