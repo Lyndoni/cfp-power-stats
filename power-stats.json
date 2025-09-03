@@ -300,7 +300,7 @@
         "defense": 90,
         "cooldown": 4000,
 
-        "thickness-multiplier": 0,
+        "thickness-multiplier": 0.001,
         "rotate-multiplier": 1.15,
         "effect-duration": 5000
     },
