@@ -290,6 +290,7 @@
         "defense": 200,
         "effect-duration": 1500,
         "radius": 25,
+        "rotate-multiplier": 1.2,
         "bounce-attack-modifier": 0.8,
         "bounce": true,
         "cooldown": 5000
