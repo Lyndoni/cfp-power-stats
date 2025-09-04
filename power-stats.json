@@ -24,7 +24,7 @@
         "cooldown": 5000,
 
         "travel-radius": 1,
-        "trigger-radius": 42,
+        "trigger-radius": 40,
         "activation-delay": 600,
         "throw-speed": 5
     },
@@ -35,11 +35,11 @@
     "default_ITEM": {
         "attack": 0,
         "defense": 0,
-        "cooldown": 400,
+        "cooldown": 4000,
 
         "travel-radius": 10,
         "trigger-radius": 39,
-        "activation-delay": 55,
+        "activation-delay": 550,
         "throw-speed": 5,
         "effect-duration": 5000,
         "collide-while-moving": false
@@ -51,7 +51,7 @@
     "SHOT_SINGLE": {
         "attack": 151,
         "initial-cooldown": 4000,
-        "bullet-speed": 6.5
+        "charge-time": 0
     },
 
     "SHOT_DOUBLE": {
@@ -234,7 +234,7 @@
     "BOMB_TRIGGER": {
         "attack": 123,
         "trigger-radius": 30,
-        "activation-delay": 450,
+        "activation-delay": 500,
         "stop-moving-on-trigger": true,
         "explode-delay": 0
     },
@@ -250,7 +250,7 @@
     },
 
     "PWR_BRAKE": {
-        "defense": 80,
+        "defense": 160,
         "cooldown": 5000,
 
         "ease-in-duration": 0,
@@ -277,7 +277,7 @@
     },
 
     "PWR_SPEED": {
-        "defense": 75,
+        "defense": 150,
 
         "ease-in-duration": 0,
         "ease-out-duration": 0,
@@ -287,7 +287,7 @@
     },
 
     "PWR_SHIELD": {
-        "defense": 200,
+        "defense": 400,
         "effect-duration": 1500,
         "radius": 25,
         "bounce-attack-modifier": 0.8,
@@ -296,7 +296,7 @@
     },
 
     "PWR_THIN": {
-        "defense": 90,
+        "defense": 180,
         "cooldown": 4000,
 
         "thickness-multiplier": 0.55,
@@ -305,14 +305,14 @@
     },
 
     "PWR_HIDE": {
-        "defense": 125,
+        "defense": 250  ,
         "cooldown": 5700,
 
         "effect-duration": 3500
     },
 
     "PWR_HOOK": {
-        "defense": 50,
+        "defense": 250,
         "cooldown": 6000,
 
         "effect-duration": 4000,
@@ -320,7 +320,7 @@
     },
 
     "PWR_TELEPORT": {
-        "defense": 100,
+        "defense": 200,
         "cooldown": 6000,
 
         "activation-delay": 400,
@@ -331,10 +331,9 @@
     },
 
     "PWR_180": {
-        "defense": 50,
+        "defense": 100,
         "cooldown": 6000,
 
-        "activation-delay": 5000,
         "hole-radius": 30,
         "hole-in-front": 30,
         "game-mode": {
@@ -345,7 +344,7 @@
     },
 
     "PWR_BURST": {
-        "defense": 60,
+        "defense": 120,
         "cooldown": 6000,
 
         "ease-in-duration": 0,
