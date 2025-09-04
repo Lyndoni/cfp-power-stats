@@ -250,7 +250,7 @@
     },
 
     "PWR_BRAKE": {
-        "defense": 160,
+        "defense": 120,
         "cooldown": 5000,
 
         "ease-in-duration": 0,
@@ -277,7 +277,7 @@
     },
 
     "PWR_SPEED": {
-        "defense": 150,
+        "defense": 110,
 
         "ease-in-duration": 0,
         "ease-out-duration": 0,
@@ -287,7 +287,7 @@
     },
 
     "PWR_SHIELD": {
-        "defense": 400,
+        "defense": 40,
         "effect-duration": 1500,
         "radius": 25,
         "bounce-attack-modifier": 0.8,
@@ -296,7 +296,7 @@
     },
 
     "PWR_THIN": {
-        "defense": 180,
+        "defense": 130,
         "cooldown": 4000,
 
         "thickness-multiplier": 0.55,
@@ -305,14 +305,14 @@
     },
 
     "PWR_HIDE": {
-        "defense": 250  ,
+        "defense": 190  ,
         "cooldown": 5700,
 
         "effect-duration": 3500
     },
 
     "PWR_HOOK": {
-        "defense": 250,
+        "defense": 50,
         "cooldown": 6000,
 
         "effect-duration": 4000,
@@ -320,7 +320,7 @@
     },
 
     "PWR_TELEPORT": {
-        "defense": 200,
+        "defense": 150,
         "cooldown": 6000,
 
         "activation-delay": 400,
@@ -331,7 +331,7 @@
     },
 
     "PWR_180": {
-        "defense": 100,
+        "defense": 70,
         "cooldown": 6000,
 
         "hole-radius": 30,
@@ -344,7 +344,7 @@
     },
 
     "PWR_BURST": {
-        "defense": 120,
+        "defense": 90,
         "cooldown": 6000,
 
         "ease-in-duration": 0,
