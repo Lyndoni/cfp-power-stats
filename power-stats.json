@@ -297,9 +297,9 @@
 
     "PWR_THIN": {
         "defense": 130,
-        "cooldown": 4000,
+        "cooldown": 6500,
 
-        "thickness-multiplier": 0.55,
+        "thickness-multiplier": 0.50,
         "rotate-multiplier": 1.15,
         "effect-duration": 5000
     },
