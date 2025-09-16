@@ -287,7 +287,7 @@
     },
 
     "PWR_SHIELD": {
-        "defense": 40,
+        "defense": 400,
         "effect-duration": 1500,
         "radius": 25,
         "bounce-attack-modifier": 0.8,
