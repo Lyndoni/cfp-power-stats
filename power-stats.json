@@ -313,9 +313,9 @@
 
     "PWR_HOOK": {
         "defense": 50,
-        "cooldown": 6500,
+        "cooldown": 6000,
 
-        "effect-duration": 4000,
+        "effect-duration": 3500,
         "angle": 90
     },
 
