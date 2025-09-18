@@ -142,7 +142,7 @@
         "thickness": 10,
         "windup-time": 600,
         "rotate-multiplier": 0.04,
-        "speed-multiplier": 0.25,
+        "speed-multiplier": 0.3,
         "duration": 80,
         "distance": null
     },
@@ -313,7 +313,7 @@
 
     "PWR_HOOK": {
         "defense": 50,
-        "cooldown": 6000,
+        "cooldown": 6500,
 
         "effect-duration": 4000,
         "angle": 90
