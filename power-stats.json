@@ -142,7 +142,7 @@
         "thickness": 10,
         "windup-time": 600,
         "rotate-multiplier": 0.04,
-        "speed-multiplier": 0.1,
+        "speed-multiplier": 0.4,
         "duration": 80,
         "distance": null
     },
